@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  id="com.anntync.cordova.echo"
+  version="0.1.0">
+  <name>Echo Plugin</name>
+  <description>Cordova Echo Plugin</description>
+  <license>Apache 2.0</license>
+  <keywords>cordova,phonegap,echo,ios,android</keywords>
+
+  <engines>
+    <engine name="cordova" version=">=3.0.0" />
+  </engines>
+
+  <platform name="android">
+    <js-module src="www/echo.js" name="echo">
+      <clobbers target="Echo" />
+    </js-module>
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="Echo">
+        <param name="android-package" value="com.anntync.cordova.echo" />
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/com/anntync/cordova/echo/Echo.java" target-dir="src/com/anntync/cordova/echo" />
+  </platform>
+
+</plugin>
+
