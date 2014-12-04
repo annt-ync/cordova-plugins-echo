@@ -1,4 +1,4 @@
 cordova
 =======
 
-For Cordova Platform
+Implement or fix for Cordova Platform
