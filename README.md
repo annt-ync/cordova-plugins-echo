@@ -18,7 +18,7 @@ cordova plugin add https://github.com/annt-ync/cordova-plugins-echo.git
 ## Using the plugin
 The plugin creates the object `window.plugins.Echo` with the following methods:
 
-1. [Echo.echo][echo]
+### echo()
 
 ##  Examples
 ```javascript
