@@ -6,7 +6,8 @@ http://cordova.apache.org/docs/en/4.0.0/guide_hybrid_plugins_index.md.html
 ## Overview
 1. [Supported Platforms](#supported-platforms)
 2. [Installation](#installation)
-4. [Using the plugin](#using-the-plugin)
+3. [Using the plugin](#using-the-plugin)
+4. [Examples](#examples)
 
 ## Supported Platforms
 - __iOS__ *(including iOS8)*
