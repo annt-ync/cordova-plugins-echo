@@ -10,7 +10,6 @@
 
     module.exports = {
         echo: function(message, successCallback, errorCallback) {
-            message = message || "";
             return exec(successCallback, errorCallback, 'Echo', 'echo', [message]);
         }
     }
